@@ -28,10 +28,10 @@ var funkyFunction = function outerFunction() {
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
-var theFunk = funkyFunction;
+var theFunk = funkyFunction();
 
 
-console.log(theFunk());
+console.log(funkyFunction());
 
 
 myAnimal();
