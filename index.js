@@ -20,8 +20,8 @@ function add2(n) {
 
 }
 
-function funkyFunction(x) {
-  return function x() {
+function funkyFunction() {
+  return function () {
     return "FUNKY!"
   }
 }
@@ -30,7 +30,7 @@ function funkyFunction(x) {
 // NOTE: you only need to modify the code below this line.
 var theFunk = funkyFunction(x);
 
-theFunk;
+theFunk();
 
 
 myAnimal();
