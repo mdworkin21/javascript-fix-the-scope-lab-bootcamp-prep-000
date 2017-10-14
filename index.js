@@ -20,15 +20,16 @@ function add2(n) {
 
 }
 
-var funkyFunction = function outerFunction() {
+var funkyFunction = function outerFunction(n) {
+  var funk = n
   return function innerFunction() {
-    return "FUNKY!";
+    return funk;
   }
 }
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
-var theFunk = funkyFunction();
+var theFunk = funkyFunction("FUNKY!");
 
 
 console.log(funkyFunction());
