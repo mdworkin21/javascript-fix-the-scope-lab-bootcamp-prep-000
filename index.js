@@ -31,7 +31,7 @@ var funkyFunction = function outerFunction(n) {
 var theFunk = funkyFunction(n);
 
 
-theFunk(innerFunction);
+theFunk(funkyFunction());
 
 
 myAnimal();
