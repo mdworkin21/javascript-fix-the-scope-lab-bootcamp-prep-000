@@ -19,10 +19,8 @@ function add2(n) {
   // Feel free to move things around!
 
 }
-var theFunk = funkyFunction();
-
-var funkyFunction = function outerFunction() {
-  return function innerFunction() {
+var theFunk = funkyFunction();{
+    return function innerFunction() {
     return "FUNKY!";
   }
 }
