@@ -32,7 +32,7 @@ var funkyFunction = function outerFunction() {
 var theFunk = funkyFunction();
 
 
-innerFunction();
+theFunk();
 
 
 myAnimal();
