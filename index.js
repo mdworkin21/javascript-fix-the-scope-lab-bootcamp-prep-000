@@ -19,9 +19,9 @@ function add2(n) {
   // Feel free to move things around!
 
 }
-
+var funky = "FUNKY!"
 var funkyFunction = function outerFunction() {
-  var funky = "FUNKY!"
+
   return function innerFunction() {
     return funky;
   }
@@ -29,7 +29,7 @@ var funkyFunction = function outerFunction() {
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
-var theFunk = outerFunction();
+var theFunk = funkyFunction();
 
 theFunk();
 
