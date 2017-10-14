@@ -20,7 +20,7 @@ function add2(n) {
 
 }
 
-var funkyFunction = function outerFunction(function) {
+var funkyFunction = function outerFunction(n) {
   return function innerFunction() {
     return "FUNKY!";
   }
